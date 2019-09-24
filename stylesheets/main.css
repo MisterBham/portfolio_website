@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+
+footer {
+    background-color: rgb(8,129,160);
+    color: white;       
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#name-title {
+    color: rgb(8,129,160);
+    font-family: 'Arial, Helvetica, sans-serif';
+}
+
+#head-nav-links {
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.comp-subtitle {
+    margin-top: 2em;
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(8,129,160);
+}
+
+.comp-sub-art {
+    font-size: 1.1em;
+}
+
+.comp-sub-subtitle {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.contact-index {
+    height: 3em;
+    justify-content: center;
+    margin-top: 10em;
+}
+
+.icon-sm {
+    height: 100%;
+    width: 100;
+    object-fit: contain;
+}
+
+.img-main-index  {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link.active {
+    color: rgb(8,129,160);
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    background-color: rgb(116, 143, 150);
+    border-radius: 15px 15px;
+    color: white;
+}
+
+.p-mid-index {
+    margin-right: 1%;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.port-img-thumb:hover {
+    opacity: 1;
+}
+
+.port-test-thumb {
+    height: auto;
+    max-height: 300px;
+    max-width: 80%;
+    object-fit: cover;
+    opacity: 0.30;
+}
+
+.port-test-thumb:hover {
+    opacity: 1;
+}
+
+.sticky-footer {
+    height: 4rem;
+}
+
+.ts-thumb {
+    max-height: 5em;
+}
+
+.ts-img {
+    max-height: 100px;
+    object-fit: cover;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .ts-img {
+        max-height: 200px;
+        object-fit: cover;
+    }
+    .port-test-div {
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 2%;
+    }
+    .port-test-inner-div {
+        max-width: 100%;
+        min-width: 100%;
+    }
+    .port-test-inner-div2 {
+        max-width: 100%;
+        margin: 1% 5%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .ts-img {
+        max-height: 250px;
+        object-fit: cover;
+    }
+    .port-test-inner-div {
+        max-width: 50%;
+        min-width: 50%;
+    }
+    .port-test-div {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 2%;
+    }
+    .port-test-inner-div2 {
+        max-width: 100%;
+        margin: 0%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .ts-wds-img {
+        max-height: 300px;
+        object-fit: cover;
+    }
+}
