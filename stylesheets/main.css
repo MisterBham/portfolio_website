@@ -93,7 +93,7 @@ footer {
 .port-test-thumb {
     height: auto;
     max-height: 300px;
-    max-width: 50%;
+    max-width: 100%;
     object-fit: cover;
     opacity: 0.30;
 }
@@ -124,7 +124,6 @@ footer {
     .port-test-div {
         margin-left: 0%;
         margin-right: 0%;
-        margin-top: 2%;
     }
     .port-test-inner-div {
         max-width: 100%;
