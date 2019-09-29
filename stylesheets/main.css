@@ -21,10 +21,13 @@ footer {
 #name-title {
     color: rgb(8,129,160);
     font-family: 'Arial, Helvetica, sans-serif';
+    font-size: 3em;
 }
 
 #head-nav-links {
+    font-size: 1.1em;
     text-transform: uppercase;
+    margin-bottom: 1em;
 }
 
 .bold {
@@ -36,6 +39,7 @@ footer {
     text-align: center;
     text-decoration: underline;
     color: rgb(8,129,160);
+    font-size: 1.5em;
 }
 
 .comp-sub-art {
@@ -92,13 +96,15 @@ footer {
 
 .port-test-thumb {
     height: auto;
+<<<<<<< HEAD
     max-height: 300px;
     max-width: 100%;
+=======
+    max-height: 200px;
+    min-width: 65%;
+    max-width: 65%;
+>>>>>>> dev
     object-fit: cover;
-    opacity: 0.30;
-}
-
-.port-test-thumb:hover {
     opacity: 1;
 }
 
@@ -111,8 +117,11 @@ footer {
 }
 
 .ts-img {
-    max-height: 100px;
+    max-height: 250px;
     object-fit: cover;
+}
+.ts-li {
+        margin-top: 1em;
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -122,16 +131,18 @@ footer {
         object-fit: cover;
     }
     .port-test-div {
-        margin-left: 0%;
+        /* margin-left: 0%;
         margin-right: 0%;
+<<<<<<< HEAD
     }
+=======
+    } */
+>>>>>>> dev
     .port-test-inner-div {
-        max-width: 100%;
-        min-width: 100%;
+        max-width: 50%;
     }
     .port-test-inner-div2 {
         max-width: 100%;
-        margin: 1% 5%;
     }
 }
 
@@ -141,23 +152,56 @@ footer {
         max-height: 250px;
         object-fit: cover;
     }
-    .port-test-inner-div {
-        max-width: 50%;
-        min-width: 50%;
-    }
     .port-test-div {
         margin-left: 15%;
         margin-right: 15%;
         margin-top: 2%;
     }
+    .port-test-inner-div {
+        max-width: 50%;
+        min-width: 50%;
+    }
     .port-test-inner-div2 {
         max-width: 100%;
-        margin: 0%;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    #name-title {
+        color: rgb(8,129,160);
+        font-family: 'Arial, Helvetica, sans-serif';
+        font-size: 3.5em;
+    }
+    #head-nav-links {
+        font-size: 1em;
+        text-transform: uppercase;
+    }
+    .comp-sub-subtitle {
+        font-weight: bold;
+        font-size: 1.1em;
+    }
+    .comp-subtitle {
+        margin-top: 2em;
+        text-align: center;
+        text-decoration: underline;
+        color: rgb(8,129,160);
+        font-size: 1.1em;
+    }
+    .port-test-thumb {
+        height: auto;
+        max-height: 400px;
+        min-width: 55%;
+        max-width: 55%;
+        object-fit: cover;
+        opacity: 0.30;
+    }
+    
+    .port-test-thumb:hover {
+        opacity: 1;
+    }
+}
+
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
