@@ -18,6 +18,11 @@ footer {
     left: 0;
 }
 
+p {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+}
+
 #name-title {
     color: rgb(8,129,160);
     font-family: 'Arial, Helvetica, sans-serif';
@@ -35,7 +40,7 @@ footer {
 }
 
 .comp-subtitle {
-    margin-top: 1.5em;
+    margin-top: 1em;
     text-align: center;
     text-decoration: underline;
     color: rgb(8,129,160);
@@ -126,6 +131,9 @@ footer {
         max-height: 200px;
         object-fit: cover;
     }
+    .port-test-inner-div {
+        max-width: 50%;
+    }
     .port-test-inner-div2 {
         max-width: 100%;
     }
@@ -161,6 +169,10 @@ footer {
     #head-nav-links {
         font-size: 1em;
         text-transform: uppercase;
+    }
+    .comp-sub-art {
+        font-size: 1.1em;
+        margin: 0.5em 1em;
     }
     .comp-sub-subtitle {
         font-weight: bold;
