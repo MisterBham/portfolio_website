@@ -96,20 +96,9 @@ footer {
 
 .port-test-thumb {
     height: auto;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    max-height: 300px;
-    max-width: 100%;
-=======
     max-height: 200px;
     min-width: 65%;
     max-width: 65%;
->>>>>>> dev
-=======
-    max-height: 200px;
-    min-width: 65%;
-    max-width: 65%;
->>>>>>> dev
     object-fit: cover;
     opacity: 1;
 }
@@ -136,21 +125,6 @@ footer {
         max-height: 200px;
         object-fit: cover;
     }
-    .port-test-div {
-        /* margin-left: 0%;
-        margin-right: 0%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    }
-=======
-    } */
->>>>>>> dev
-=======
-    } */
->>>>>>> dev
-    .port-test-inner-div {
-        max-width: 50%;
-    }
     .port-test-inner-div2 {
         max-width: 100%;
     }
@@ -168,8 +142,8 @@ footer {
         margin-top: 2%;
     }
     .port-test-inner-div {
-        max-width: 50%;
-        min-width: 50%;
+        max-width: 60%;
+        min-width: 60%;
     }
     .port-test-inner-div2 {
         max-width: 100%;
@@ -211,7 +185,6 @@ footer {
         opacity: 1;
     }
 }
-
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
