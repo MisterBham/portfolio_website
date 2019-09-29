@@ -164,6 +164,10 @@ footer {
         font-size: 1em;
         text-transform: uppercase;
     }
+    .comp-sub-art {
+        font-size: 1.1em;
+        margin: 1em;
+    }
     .comp-sub-subtitle {
         font-weight: bold;
         font-size: 1.1em;
