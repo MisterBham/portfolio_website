@@ -189,8 +189,4 @@ footer {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    .ts-wds-img {
-        max-height: 300px;
-        object-fit: cover;
-    }
 }
