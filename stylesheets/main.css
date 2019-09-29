@@ -18,6 +18,11 @@ footer {
     left: 0;
 }
 
+p {
+    margin-top: 0;
+    margin-bottom: 0 !important;
+}
+
 #name-title {
     color: rgb(8,129,160);
     font-family: 'Arial, Helvetica, sans-serif';
@@ -35,7 +40,7 @@ footer {
 }
 
 .comp-subtitle {
-    margin-top: 2em;
+    margin-top: 1em;
     text-align: center;
     text-decoration: underline;
     color: rgb(8,129,160);
